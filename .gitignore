@@ -1,0 +1,16 @@
+# k6 결과 파일
+results/
+*.json
+!package.json
+
+# OS 파일
+.DS_Store
+Thumbs.db
+
+# IDE
+.idea/
+.vscode/
+
+# 환경 변수 (혹시 추가될 경우)
+.env
+http-client.private.env.json
